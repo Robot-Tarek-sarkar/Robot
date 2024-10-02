@@ -7,11 +7,11 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "nayan-bot",
-  "PREFIX": "/",
+  "BOTNAME": "Tarek-bot",
+  "PREFIX": ".",
   "OPERATOR": [
-    "100014896964436",
-    "100000959749712"
+    "100089702123718",
+    ""
   ],
   "ADMINBOT": [
     "100000959749712",
