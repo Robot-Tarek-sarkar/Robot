@@ -58,7 +58,7 @@ module.exports.languages = {
   }
 };
  
-module.exports🙋‍♂️.run = async ({ api, event, Threads, getText }) => {
+module.exports.run = async ({ api, event, Threads, getText }) => {
   const { threadID, messageID } = event;
   let data = (await Threads.getData(threadID)).data;
   if (typeof data["🥵"] === "undefined" || data["🥵"]) data["🥵"] = false;
