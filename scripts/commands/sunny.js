@@ -27,7 +27,7 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads }) => {
   const content = event.body ? event.body : '';
     const body = content.toLowerCase();
-  if (body.startsWith("Sunny Leone")) {
+  if (body.startsWith("সানি লিওন")) {
     const rahad = [
       "আমার কথা তদের এখনো মনে আছে আমাকে তোমরা এখনো ভুলো নাই 🙆🙆",
     
