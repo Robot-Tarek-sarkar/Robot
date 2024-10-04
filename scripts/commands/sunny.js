@@ -3,12 +3,12 @@ const fs = require("fs");
 const request = require("request");
  
 const link = [
-  "https://i.imgur.com/OZAixZC.jpeg",
+  "https://i.imgur.com/A3k1eKe.jpeg",
  
 ];
  
 module.exports.config = {
-  name: "Sumaiya",
+  name: "Sunny",
   version: "1.0.0",
   permission: 0,
   credits: "Tarek",
@@ -27,9 +27,9 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads }) => {
   const content = event.body ? event.body : '';
     const body = content.toLowerCase();
-  if (body.startsWith("সুমাইয়া")) {
+  if (body.startsWith("Sunny Leone")) {
     const rahad = [
-      "—বৃষ্টি তুমি ছুঁয়ে দাও তারে! প্রতিটা ফোঁটায় আমি অনুভব করি যারে..😊",
+      "আমার কথা তদের এখনো মনে আছে আমাকে তোমরা এখনো ভুলো নাই 🙆🙆",
     
     ];
     const rahad2 = rahad[Math.floor(Math.random() * rahad.length)];
