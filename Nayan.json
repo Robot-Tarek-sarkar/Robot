@@ -8,7 +8,7 @@
   "approval": false,
   "saveState": true,
   "BOTNAME": "Tarek-bot",
-  "PREFIX": ".",
+  "PREFIX": "/",
   "OPERATOR": [
     "100089702123718",
     ""
